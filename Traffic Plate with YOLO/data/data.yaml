@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 10
+names: ['hump', 'no entry', 'no overtaking', 'no stopping', 'no u turn', 'parking', 'roadwork', 'roundabout', 'speed limit 40', 'stop']
+
+roboflow:
+  workspace: university-km5u7
+  project: traffic-sign-detection-yolov8-awuus
+  version: 11
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/university-km5u7/traffic-sign-detection-yolov8-awuus/dataset/11
