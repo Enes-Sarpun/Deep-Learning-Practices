@@ -22,7 +22,7 @@ Applications built with **MediaPipe** for real-time body and face analysis:
 Advanced neural network implementations using **TensorFlow/Keras**:
 * **`Unet.py`**: Semantic segmentation of satellite imagery using a custom-built U-Net architecture.
 * **`gans.py`**: A Generative Adversarial Network (GAN) trained on the Fashion MNIST dataset to synthesize new, artificial clothing images from random noise.
-* **`Bone.py`**: A multi-input Convolutional Neural Network (CNN) that predicts bone age from X-ray images by fusing image data with patient gender information.
+* **`Bone.py`**: A multi-input Convolutional Neural Network (CNN) that predicts bone age from X-ray images by fusing image data with patient gender information. Bone dataset is avaliable in Kaggle platform -> https://www.kaggle.com/datasets/kmader/rsna-bone-age
 * **`CNN.py`**: A digit classification model using the MNIST dataset, integrated with robust data augmentation techniques and image inversion preprocessing.
 * **`ANN.py`**: An Artificial Neural Network paired with an OpenCV preprocessing pipeline (Histogram Equalization, Gaussian Blur, Canny Edge Detection) for image classification.
 
